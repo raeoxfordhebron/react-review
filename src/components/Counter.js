@@ -6,7 +6,7 @@ const [count, setCount] = useState(0)
 console.log(count)
 
 function countUp(){
-  setCount(count)
+  setCount(count+1)
   console.log(count)
 }
 

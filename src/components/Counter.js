@@ -1,4 +1,5 @@
 import {useState} from "react"
+import Button from "./Button"
 
 function Counter(props){
     // let count = 0;
@@ -13,7 +14,7 @@ function countUp(){
   return (
     <div className="App">
       <h1>{count}</h1>
-      <button onClick={countUp}>Add One</button>
+      <Button label="Add One" click={countUp}/>
     </div>
   );
 }
